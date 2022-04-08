@@ -5,6 +5,7 @@ public class Child_class extends Parent_class{
 	public static void main(String[] args) {
 		Child_class C=new Child_class();
 		C.test2();
+		System.out.println("This is new statement");
 
 	}
 
