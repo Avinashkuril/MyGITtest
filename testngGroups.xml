@@ -1,0 +1,16 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+<groups>
+<run>
+<include name="reg"/>
+<include name="sanity"/>
+</run>
+</groups>
+	<classes>
+      <class name="testNG_study.TestngGrouping"/>
+		<methods>
+		<exclude name="s"/>
+		</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

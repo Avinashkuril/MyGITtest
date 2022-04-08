@@ -1,0 +1,11 @@
+<suite name="TestngInclude">
+  <test thread-count="5" name="Test">
+	<classes>
+      <class name="testNG_study.Include_Exclude"/>
+		<methods>
+		<include name="a"/>
+		<include name="d"/>
+		</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestngInclude -->

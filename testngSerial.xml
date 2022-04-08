@@ -1,0 +1,18 @@
+<suite name="Suite" parallel="tests">
+  <test name="Test1">
+    <classes>
+      <class name="serialAndParallel.Serial1"/>
+	</classes>
+  	</test>
+	<test name="Test2">
+    <classes>
+      <class name="serialAndParallel.Serial2"/>
+	</classes>
+  	</test>
+
+	<test name="Test3">
+    <classes>
+      <class name="serialAndParallel.Serial3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
